@@ -1,0 +1,15 @@
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\fruit_and_vegetable_shop.exe.config
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\fruit_and_vegetable_shop.exe
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\fruit_and_vegetable_shop.pdb
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\EntityFramework.dll
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\EntityFramework.xml
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.csproj.AssemblyReference.cache
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.Properties.Resources.resources
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.csproj.GenerateResource.cache
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.csproj.CoreCompileInputs.cache
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_an.36517EFF.Up2Date
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.exe
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.pdb
+C:\Users\nedel\OneDrive\Desktop\Zadachi\fruit_and_vegetable_shop\fruit_and_vegetable_shop\obj\Debug\fruit_and_vegetable_shop.Migrations.TestMigration.resources
