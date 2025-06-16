@@ -13,6 +13,6 @@ namespace fruit_and_vegetable_shop.Data
         public string Description { get; set; }
         public decimal Price { get; set; }
         public int VeganTypeId { get; set; }
-        public Vegan Vegans { get; set; }
+        public VeganType VeganTypes { get; set; }
     }
 }
