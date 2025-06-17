@@ -42,10 +42,8 @@ namespace fruit_and_vegetable_shop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            // TODO: This line of code loads data into the 'fruitAndVegetableStoreDataSet.Vegans' table. You can move, or remove it, as needed.
             this.vegansTableAdapter.Fill(this.fruitAndVegetableStoreDataSet.Vegans);
-            List<Vegan> allVeganTypes = veganTypeController.GetAllVeganTypes();
+            List<VeganType> allVeganTypes = veganTypeController.GetAllVeganTypes(); 
             cmb_type.DataSource = allVeganTypes;
             cmb_type.DisplayMember = "Name";
             cmb_type.ValueMember = "Id";
@@ -80,7 +78,6 @@ namespace fruit_and_vegetable_shop
             {
                 veganController.Delete(findId);
             }
-  
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -98,18 +95,14 @@ namespace fruit_and_vegetable_shop
 
             veganController.Create(newVegan);
             MessageBox.Show("Записа е направен!");
-            ClearScreen();
+            this.vegansTableAdapter.Fill(this.fruitAndVegetableStoreDataSet.Vegans);
             btn_selectAll_Click(sender, e);
+
         }
 
         private void btn_selectAll_Click(object sender, EventArgs e)
         {
-            List<Vegan> allVegans = veganController.GetAll();
-            lsb_allInfo.Items.Clear();
-            foreach(var item in allVegans)
-            {
-                lsb_allInfo.Items.Add($"{item.Id}. {item.Name} -{item.Price} Порода:{item.VeganTypes}");
-            }
+            
         }
 
 

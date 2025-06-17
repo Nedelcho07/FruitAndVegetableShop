@@ -53,7 +53,6 @@
             this.vegansTableAdapter = new fruit_and_vegetable_shop.FruitAndVegetableStoreDataSetTableAdapters.VegansTableAdapter();
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_selectAll = new System.Windows.Forms.Button();
-            this.lsb_allInfo = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vegansBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fruitAndVegetableStoreDataSet)).BeginInit();
@@ -260,20 +259,11 @@
             this.btn_selectAll.UseVisualStyleBackColor = true;
             this.btn_selectAll.Click += new System.EventHandler(this.btn_selectAll_Click);
             // 
-            // lsb_allInfo
-            // 
-            this.lsb_allInfo.FormattingEnabled = true;
-            this.lsb_allInfo.Location = new System.Drawing.Point(250, 219);
-            this.lsb_allInfo.Name = "lsb_allInfo";
-            this.lsb_allInfo.Size = new System.Drawing.Size(120, 95);
-            this.lsb_allInfo.TabIndex = 16;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lsb_allInfo);
             this.Controls.Add(this.btn_selectAll);
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.btn_add);
@@ -327,7 +317,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn veganTypeIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button btn_update;
         private System.Windows.Forms.Button btn_selectAll;
-        private System.Windows.Forms.ListBox lsb_allInfo;
     }
 }
 

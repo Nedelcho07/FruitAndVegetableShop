@@ -10,8 +10,6 @@ namespace fruit_and_vegetable_shop.Controllers
     public class VeganTypeController
     {
         private VegansContext vegandbcontex = new VegansContext();
-
-
         public List<Vegan> GetAllVegans()
         {
             return vegandbcontex.Vegans.ToList();

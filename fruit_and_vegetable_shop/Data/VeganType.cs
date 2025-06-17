@@ -10,6 +10,6 @@ namespace fruit_and_vegetable_shop.Data
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Vegan> Vegans { get; set; }
+        public ICollection<Vegan> Vegans { get; set; }//1 към много
     }
 }

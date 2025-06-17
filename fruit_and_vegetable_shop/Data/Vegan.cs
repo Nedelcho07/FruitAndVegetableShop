@@ -12,7 +12,7 @@ namespace fruit_and_vegetable_shop.Data
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public int VeganTypeId { get; set; }
-        public VeganType VeganTypes { get; set; }
+        public int VeganTypeId { get; set; }//FK
+        public VeganType VeganTypes { get; set; }//Връзка много към едно
     }
 }

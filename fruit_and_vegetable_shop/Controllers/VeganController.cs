@@ -30,6 +30,7 @@ namespace fruit_and_vegetable_shop.Controllers
         {
             vegansDbContext.Vegans.Add(vegan);
             vegansDbContext.SaveChanges();
+            
         }
         public void Update(int id, Vegan vegan)
         {
