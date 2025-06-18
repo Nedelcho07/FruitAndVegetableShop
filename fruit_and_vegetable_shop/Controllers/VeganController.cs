@@ -49,6 +49,10 @@ namespace fruit_and_vegetable_shop.Controllers
         public void Delete(int id)
         {
             Vegan findedVegan = vegansDbContext.Vegans.Find(id);
+            if (findedVegan == null)
+            {
+                return;
+            }
             vegansDbContext.Vegans.Remove(findedVegan);
             vegansDbContext.SaveChanges();
         }

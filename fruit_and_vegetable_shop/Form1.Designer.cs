@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_id = new System.Windows.Forms.TextBox();
@@ -61,7 +62,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(7, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(176, 24);
@@ -71,7 +74,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(15, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 16);
@@ -80,7 +85,9 @@
             // 
             // txt_id
             // 
+            this.txt_id.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_id.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txt_id.ForeColor = System.Drawing.Color.Transparent;
             this.txt_id.Location = new System.Drawing.Point(17, 74);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(58, 23);
@@ -89,7 +96,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(97, 58);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 16);
@@ -99,7 +108,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(15, 107);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 16);
@@ -108,7 +119,9 @@
             // 
             // txt_description
             // 
+            this.txt_description.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_description.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txt_description.ForeColor = System.Drawing.Color.Transparent;
             this.txt_description.Location = new System.Drawing.Point(17, 123);
             this.txt_description.Name = "txt_description";
             this.txt_description.Size = new System.Drawing.Size(164, 23);
@@ -116,7 +129,9 @@
             // 
             // txt_name
             // 
+            this.txt_name.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_name.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txt_name.ForeColor = System.Drawing.Color.Transparent;
             this.txt_name.Location = new System.Drawing.Point(100, 74);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(81, 23);
@@ -125,7 +140,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(15, 161);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 16);
@@ -134,7 +151,9 @@
             // 
             // txt_price
             // 
+            this.txt_price.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txt_price.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txt_price.ForeColor = System.Drawing.Color.Transparent;
             this.txt_price.Location = new System.Drawing.Point(12, 177);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(63, 23);
@@ -143,7 +162,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(100, 161);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 16);
@@ -152,7 +173,9 @@
             // 
             // cmb_type
             // 
+            this.cmb_type.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmb_type.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cmb_type.ForeColor = System.Drawing.Color.Transparent;
             this.cmb_type.FormattingEnabled = true;
             this.cmb_type.Location = new System.Drawing.Point(100, 177);
             this.cmb_type.Name = "cmb_type";
@@ -162,6 +185,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Desktop;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -170,6 +194,7 @@
             this.priceDataGridViewTextBoxColumn,
             this.veganTypeIdDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.vegansBindingSource;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlText;
             this.dataGridView1.Location = new System.Drawing.Point(250, 34);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(528, 167);
@@ -218,22 +243,26 @@
             // 
             // btn_delete
             // 
+            this.btn_delete.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_delete.ForeColor = System.Drawing.Color.Transparent;
             this.btn_delete.Location = new System.Drawing.Point(12, 238);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(81, 56);
             this.btn_delete.TabIndex = 12;
             this.btn_delete.Text = "Delete";
-            this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.UseVisualStyleBackColor = false;
             this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_add
             // 
+            this.btn_add.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_add.ForeColor = System.Drawing.Color.Transparent;
             this.btn_add.Location = new System.Drawing.Point(11, 300);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(81, 56);
             this.btn_add.TabIndex = 13;
             this.btn_add.Text = "Add";
-            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.UseVisualStyleBackColor = false;
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // vegansTableAdapter
@@ -242,27 +271,34 @@
             // 
             // btn_update
             // 
+            this.btn_update.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_update.ForeColor = System.Drawing.Color.Transparent;
             this.btn_update.Location = new System.Drawing.Point(103, 238);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(81, 55);
             this.btn_update.TabIndex = 14;
             this.btn_update.Text = "Update";
-            this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.UseVisualStyleBackColor = false;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_selectAll
             // 
+            this.btn_selectAll.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_selectAll.ForeColor = System.Drawing.Color.Transparent;
             this.btn_selectAll.Location = new System.Drawing.Point(103, 299);
             this.btn_selectAll.Name = "btn_selectAll";
             this.btn_selectAll.Size = new System.Drawing.Size(81, 57);
             this.btn_selectAll.TabIndex = 15;
             this.btn_selectAll.Text = "SelectAll";
-            this.btn_selectAll.UseVisualStyleBackColor = true;
+            this.btn_selectAll.UseVisualStyleBackColor = false;
             this.btn_selectAll.Click += new System.EventHandler(this.btn_selectAll_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_selectAll);
             this.Controls.Add(this.btn_update);
@@ -281,7 +317,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Плод и зеленчук";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vegansBindingSource)).EndInit();
